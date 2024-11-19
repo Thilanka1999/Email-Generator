@@ -2,6 +2,6 @@ langchain_community
 langchain
 langchain_groq
 panda
-chromadb
+chromadb==0.5.18
 pysqlite3-binary
 
