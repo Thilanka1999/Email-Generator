@@ -1,6 +1,6 @@
-import os
+# import os
 
-os.environ["LD_LIBRARY_PATH"] = "/mount/src/Email-Generator/sqlite-amalgamation-3470000"
+# os.environ["LD_LIBRARY_PATH"] = "/mount/src/Email-Generator/sqlite-amalgamation-3470000"
 
 import streamlit as st
 from langchain_community.document_loaders import WebBaseLoader
