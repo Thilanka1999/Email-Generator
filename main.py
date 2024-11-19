@@ -3,6 +3,9 @@ from langchain_community.document_loaders import WebBaseLoader
 
 from chain import Chain
 from portfolio import Portfolio
+import os
+
+os.environ["LD_LIBRARY_PATH"] = "/mount/src/Email-Generator/sqlite-amalgamation-3470000"
 
 
 def create_streamlit_app(llm, portfolio):
