@@ -3,4 +3,4 @@ langchain
 langchain_groq
 panda
 chromadb==0.5.12
-sqlite==3.35.0.1
+pysqlite3-binary==3.35.0.1
